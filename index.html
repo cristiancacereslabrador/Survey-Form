@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer survey by Cristian Cáceres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="box">
+    <header>
+        <!--User Story #1: I can see a title with id="title" in H1 sized text.-->
+        <h1 id="title">Customer satisfaction survey</h1>
+        <!--User Story #2: I can see a short explanation with id="description" in P sized text.-->
+        <p id="description">
+            With your opinion we will improve our services.
+        </p>
+
+    </header>
+    <!--User Story #3: I can see a form with id="survey-form".-->
+    <form id="survey-form" action="" method="get" target="_blank">
+        <fieldset>
+            <legend style="text-align: center;">Information of Client</legend>
+            <div>
+                <!-- User Story #4: Inside the form element, I am required to enter my name in a field with id="name". -->
+                <label id="name-label" for="name">Full Name:</label>
+                <input type="text" name="fullName" id="name" placeholder="Names and surnames" style="height:25px;" required/>
+            </div>
+            <br>
+            <div>
+                <!-- User Story #5: Inside the form element, I am required to enter an email in a field with id="email". -->
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Example: user@server.com" style="height:25px" required/>
+            </div>
+            <br>
+            <div>
+                <!-- User Story #7: Inside the form, I can enter a number in a field with id="number". -->
+                <label id="number-label" for="number">Age:</label>
+                <input type="number" name="age" id="number" min="10" max="99" placeholder="A number between 10 and 100" style="height:25px;" required />
+            </div>
+            <div>
+                <p>Which of these options best describes your experience with us</p>
+                <select name="like" id="dropdown" required>
+                    <option disabled selected value>Select an option</option> 
+                    <option value="b">Bad</option> 
+                    <option value="g">Good</option>
+                    <option value="v">Very Good</option> 
+                    <option value="e">Excellent</option> 
+                </select></div>
+            <div class="text-radio">
+                <form>
+                    <p>How do you evaluate the quality of our products?</p>
+                    <input name="user-recommend" value="Bad" type="radio" id="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" id="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+                <form>
+                    <p>Level with which our services meet your needs.</p>
+                    <input name="user-recommend" value="Bad" type="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+                <form>
+                    <p>Response time to quote requests.</p>
+                    <input name="user-recommend" value="Bad" type="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+                <form>
+                    <p> Compliance with delivery deadlines.</p>
+                    <input name="user-recommend" value="Bad" type="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+                <form>
+                    <p>Quality of care and commercial technical advice.</p>
+                    <input name="user-recommend" value="Bad" type="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+                <form>
+                    <p>Quality of response to problems.</p>
+                    <input name="user-recommend" value="Bad" type="radio" />Bad</label>
+                    <input name="user-recommend" value="Regular" type="radio" />Regular</label>
+                    <input name="user-recommend" value="Good" type="radio" />Good</label>
+                    <input name="user-recommend" value="Very Good" type="radio" />Very Good</label>
+                    <input name="user-recommend" value="Excellent" type="radio" />Excellent</label>
+                </form>
+            </div>
+
+            <p>Extra Information <br><br>Interests:
+            </p>
+            <div class="text-checkbox">
+                <input type="checkbox" name="prefer" value="nature" />Nature</label>
+                <input type="checkbox" name="prefer" value="kitchen" />Kitchen</label>
+                <input type="checkbox" name="prefer" value="movies" />Movies</label>
+                <input type="checkbox" name="prefer" value="musical" />Musical</label>
+                <input type="checkbox" name="prefer" value="dance" />Dance </label>
+                <input type="checkbox" name="prefer" value="photography" />Photography </label>
+                <div></div>
+                <input type="checkbox" name="prefer" value="travel" />Travel</label>
+                <input type="checkbox" name="prefer" value="reading" />Reading</label>
+                <input type="checkbox" name="prefer" value="sports" />Sports</label>
+                <input type="checkbox" name="prefer" value="writing" />Writing</label>
+                <input type="checkbox" name="prefer" value="videogames" />Videogames</label>
+            </div>
+
+            <div>
+                <p> Additional Comments:</p>
+                <textarea placeholder="Any additional comments are welcome."></textarea>
+                <br>
+                <p> </p>
+                <button type="submit" id="submit" class="buttons">Submit</button>
+                <div></div>
+                <button type="reset" id="reset" class="buttons">Restore Form</button>
+            </div>
+
+        </fieldset>
+    </form>
+    <footer id="foot"><strong>© Cristian V. Cáceres L. 2021&nbsp;</strong></footer>
+</body>
+
+</html>

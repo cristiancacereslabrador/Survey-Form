@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/*     font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap");
+
+/*  font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive; */
+
+.box {
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    background: url(/img/blue-cyber.jpg) center top;
+    /* background: url("https://i.ibb.co/hCDxGB8/blue-cyber.jpg") center top; */
+    background-repeat: repeat-y;
+    -webkit-text-stroke: 0.01em black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: max-width) {
+    .box {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .box {
+        max-width: 720px;
+    }
+}
+
+label {
+    display: flex;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: "Orbitron", cursive;
+    font-size: 45px;
+}
+
+#description {
+    text-align: center;
+    font-family: "Orbitron", cursive;
+    font-size: 25px;
+    color: gray;
+}
+
+#survey-form {
+    text-align: left;
+    color: white;
+    width: 100%;
+}
+
+#name {
+    width: 100%;
+    border-radius: 6px;
+    font-family: "Orbitron", sans-serif;
+}
+
+#email {
+    width: 100%;
+    border-radius: 6px;
+    font-family: "Orbitron", sans-serif;
+}
+
+#number {
+    width: 100%;
+    border-radius: 6px;
+    font-family: "Orbitron", sans-serif;
+}
+
+#dropdown {
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+    font-family: "Orbitron", cursive;
+    color: gray;
+}
+
+#submit {
+    width: 100%;
+}
+
+.text-radio {
+    text-align: center;
+    color: gray;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.text-checkbox {
+    color: gray;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+textarea[placeholder="Any additional comments are welcome."] {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 60px;
+    font-family: "Orbitron", cursive;
+}
+
+.buttons {
+    background-color: rgba(72, 117, 243, 0.719);
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+    border-radius: 6px;
+}
+
+#reset {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.border-rad {
+    border-radius: 6px;
+}
+
+#foot {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+}
