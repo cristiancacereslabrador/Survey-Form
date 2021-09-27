@@ -14,7 +14,7 @@
     color: black;
     width: 100%;
     margin: 3.125rem auto 0 auto;
-    background: url(/img/blue-cyber.jpg) center top;
+    background: url(blue-cyber.jpg) center top;
     /* background: url("https://i.ibb.co/hCDxGB8/blue-cyber.jpg") center top; */
     background-repeat: repeat-y;
     -webkit-text-stroke: 0.01em black;
